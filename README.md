@@ -1,11 +1,9 @@
-# team-citydocker-docker-compose
-
-
+# Team-citydocker-docker-compose
 
 
 # Fazendo a instalação do jetbrains-teamcity-server
 
-# Criando um arquivo docker-compose.yml no instacia da AWS
+# Criando um arquivo docker-compose.yml na instacia da AWS
 
 - Criando a pasta teamcity no servidor
 - mkdir teamcity
@@ -14,6 +12,8 @@
 - mkdir logs
 - docker-compose up -d 
 
+
+```
 version: "3"
 services:
   teamcity-server:
@@ -38,3 +38,5 @@ logs:
       type: none
       device: /home/ec2-user/teamcity/logs
       o: bind  
+```
+
