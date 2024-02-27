@@ -57,11 +57,11 @@ sudo yum install -y nodejs
 - Caminho do seu arquivo
 - Dar permissão para a chave .PEM Windows (cacls "nome do arquivo" /E /P Todos:F) ou Linux (chmod 400 "nome do arquivo")
 
-Host "nome para descrição" 
-    Hostname "hostname da instancia para acesso ssh" 
-    User "usuário da instancia" ec2-user
-    Port "porta solicitada" 22
-    IdentityFile "caminho onde está o seu arquivo .PEM" C:\Users\Vinicius\Desktop\"nome do arquivo"
+- Host "nome para descrição" 
+    - Hostname "hostname da instancia para acesso ssh" 
+    - User "usuário da instancia" ec2-user
+    - Port "porta solicitada" 22
+    - IdentityFile "caminho onde está o seu arquivo .PEM" C:\Users\Vinicius\Desktop\"nome do arquivo"
 
 
 # 5 Fazendo a instalação do jetbrains-teamcity-server
